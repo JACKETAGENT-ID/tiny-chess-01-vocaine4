@@ -47,7 +47,4 @@ submission: 1,396 locally against 1,253 for the account's previous
 live engine on the same harness, also winning the win/loss and
 spare-plies tiebreaks. Think time averaged roughly 2–4 s per move on
 the build machine (limit 10 s); the fixed node budget keeps that
-bounded on slower machines. `serve()` replays the game record from
-the start position each turn so the repetition set and halfmove
-clock match the official state, and a rejected move falls back to
-the first fully legal move rather than stalling.
+bounded on slower machines too.
